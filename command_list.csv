@@ -1,0 +1,33 @@
+    1  git config --global user.name "Rostyslav Kutsenko"
+    2  git config --global user.email "kytsenko2003@gmail.com"
+    3  git clone https://github.com/abcdinner/HW_10.git
+    4  cd HW_10/
+    5  touch text_ignore.txt
+    6  vim .gitignore
+    7  git status
+    8  git  add .gitignore
+    9  git status
+   10  git commit -m "first commit"
+   11  touch main_test.txt
+   12  git add main_test.txt
+   13  git commit -m "second commit"
+   14  git checkout -b develop
+   15  touch develop_test.txt
+   16  git add develope_test.txt
+   17  git commit -m "just commit"
+   18  git add  develop_test.txt
+   19  git commit -m "just commit"
+   20  vim develop_test.txt 
+   21  git status
+   22  git add  develop_test.txt
+   23  git commit -m "just commit"
+   24  git checkout main
+   25  git merge develop
+   26  git log
+   27  git add
+   28  git status
+   29  git add command_list.csv
+   30  git add tory \357\200\276 command_list.csv
+   31  git add  "tory \357\200\276 command_list.csv"
+   32  git add'/c/Users/abcdi/OneDrive/HW_10/HW_10/tory > command_list.csv'
+   33  history > command_list.csv
